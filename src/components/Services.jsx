@@ -91,12 +91,12 @@ const Services = () => {
                   width={520}
                   height={400}
                   className="w-full h-full object-cover" />
-                  <VideoChatMessage/>
-                  <VideoBar/>
+                <VideoChatMessage />
+                <VideoBar />
               </div>
             </div>
           </div>
-          <Gradient/>
+          <Gradient />
         </div>
       </div>
     </Section>
