@@ -2,7 +2,7 @@ import { smallSphere, stars } from "../assets"
 import Heading from "./Heading"
 import PricingList from "./PricingList"
 import Section from "./Section"
-import {LeftLine, RightLine} from "./design/Pricing"
+import { LeftLine, RightLine } from "./design/Pricing"
 
 const Pricing = () => {
     return (
@@ -23,15 +23,19 @@ const Pricing = () => {
                         />
                     </div>
                 </div>
-                <Heading 
-                tag="Get started with Brainwave"
-                title="Pay once, use forever"
+                <Heading
+                    tag="Get started with Brainwave"
+                    title="Pay once, use forever"
                 />
 
                 <div className="relative" >
-                    <PricingList/>
-                    <LeftLine/>
-                    <RightLine/>
+                    <PricingList />
+                    <LeftLine />
+                    <RightLine />
+                </div>
+
+                <div className="flex justify-center mt-10" >
+                    <a className="text-xs font-bold font-code tracking-wider uppercase border-b " href="/pricing" >See the full details</a>
                 </div>
             </div>
         </Section>
