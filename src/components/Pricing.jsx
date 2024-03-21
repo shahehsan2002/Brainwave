@@ -1,5 +1,8 @@
 import { smallSphere, stars } from "../assets"
+import Heading from "./Heading"
+import PricingList from "./PricingList"
 import Section from "./Section"
+import {LeftLine, RightLine} from "./design/Pricing"
 
 const Pricing = () => {
     return (
@@ -19,6 +22,16 @@ const Pricing = () => {
                             height={400}
                         />
                     </div>
+                </div>
+                <Heading 
+                tag="Get started with Brainwave"
+                title="Pay once, use forever"
+                />
+
+                <div className="relative" >
+                    <PricingList/>
+                    <LeftLine/>
+                    <RightLine/>
                 </div>
             </div>
         </Section>
